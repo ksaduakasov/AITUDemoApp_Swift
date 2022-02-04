@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1625A22D383028EFAF6B7A0877EF98EB /* ZKCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F581DE85A33DE9D5ECA724C20540FA6F /* ZKCarouselCell.swift */; };
+		299E92C1A6E0285E526E6959DC916261 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AEC4F0E6D055A06A4CF2306722EF3 /* Extensions.swift */; };
+		3A0E896CE5AD1B81CC0787F957BBC43B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		464BABA02E45C565029030DA7753A441 /* ZKCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F0BFE1D474391213FAEA23733DE14 /* ZKCarousel.swift */; };
+		4822EA5F0E59E4811470ECD80EF67DEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5C9A31E552B64EB642380AED0F081542 /* Pods-shuga1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BBFE7BFE51D8286BF36ACC87B89BB /* Pods-shuga1-dummy.m */; };
+		92ACF463C1CDC294B78A19AE9570003D /* Pods-shuga1-shuga1UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A288B2397D9840A64DB1ADE4158C5BD /* Pods-shuga1-shuga1UITests-dummy.m */; };
+		B0D4FAFB81A34DB3AE5FBFFFB53867FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BA4114DD041DD209758BC56ECFD5ECE1 /* Pods-shuga1Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C3A5A492F34A713E2EEF023EB4129 /* Pods-shuga1Tests-dummy.m */; };
+		C39A95F201D8B8F4784685BBEBF7DC86 /* ZKCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7490D4CC7E5F44C4BCA302EFA8DD692A /* ZKCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40FEEB5EE3C826BA40ADD2DB4882BC4 /* Pods-shuga1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5047194262F5DA995EEF4F061FAC2D9D /* Pods-shuga1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6140B212F989039C0737541ADB83B63 /* ZKCarouselSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482A76243F46E33514865E29B469A37 /* ZKCarouselSlide.swift */; };
+		C7F754C8A97D334BE7951461A2763B98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D03E696A371AEE0B6585510D71FF27F6 /* ZKCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA728AB37F3972C0A330FEF7354B375 /* ZKCarousel-dummy.m */; };
+		D5CA916F7034931D9C2C05C2311F4314 /* Pods-shuga1Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3561FA9BBC3D80B05D3969E63780C /* Pods-shuga1Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB6F48D5B2DFFDDCCDC38CBA4D1DD2A /* Pods-shuga1-shuga1UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DE417F622A1DDF281ADB81681756A3 /* Pods-shuga1-shuga1UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3E97E5C361D847C1D4467EF77430242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0310584FC5578C2536108C10345EBCCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD089EF1AA59336DB8E81760279D1F5;
+			remoteInfo = ZKCarousel;
+		};
+		E0369B5071C4B800F3E6B2B758EB68EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD089EF1AA59336DB8E81760279D1F5;
+			remoteInfo = ZKCarousel;
+		};
+		F293A1DFABA6CFBEA3BBE37FADE9FF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF98A7198D645889A596A7B82224D8EB;
+			remoteInfo = "Pods-shuga1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD0094816C887266586432C00DBCA98 /* Pods-shuga1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shuga1-Info.plist"; sourceTree = "<group>"; };
+		0ADD5CF50963787BAAD3B9C03B49002B /* Pods-shuga1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shuga1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0F30FBFD4E903FC32279E0857DD673F0 /* ZKCarousel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKCarousel-Info.plist"; sourceTree = "<group>"; };
+		0F4AEC4F0E6D055A06A4CF2306722EF3 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ZKCarousel/Classes/Extensions.swift; sourceTree = "<group>"; };
+		15D3561FA9BBC3D80B05D3969E63780C /* Pods-shuga1Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-shuga1Tests-umbrella.h"; sourceTree = "<group>"; };
+		17584BB64A36DA5CBCBFB3AE6ACCDBD2 /* Pods_shuga1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_shuga1.framework; path = "Pods-shuga1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA728AB37F3972C0A330FEF7354B375 /* ZKCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKCarousel-dummy.m"; sourceTree = "<group>"; };
+		22402FDF65FD15BD217695592D3E249E /* Pods-shuga1-shuga1UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shuga1-shuga1UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		345B66808BB59DD14FDE00823A6D3CBA /* Pods-shuga1Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-shuga1Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EE70D3574B708B519F2541CE7CC749B /* Pods-shuga1-shuga1UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-shuga1-shuga1UITests-frameworks.sh"; sourceTree = "<group>"; };
+		43AE41CCA3BD60B08284594A686819C5 /* Pods-shuga1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-shuga1-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A977170E5E09212D8271A767E165F9A /* Pods-shuga1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shuga1.release.xcconfig"; sourceTree = "<group>"; };
+		5047194262F5DA995EEF4F061FAC2D9D /* Pods-shuga1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-shuga1-umbrella.h"; sourceTree = "<group>"; };
+		5B7BBFE7BFE51D8286BF36ACC87B89BB /* Pods-shuga1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-shuga1-dummy.m"; sourceTree = "<group>"; };
+		620EB73A23869CFD381A3FBAE435BADB /* Pods-shuga1-shuga1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shuga1-shuga1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64407C5FC540D3C9E5D79615B3C5C746 /* Pods-shuga1-shuga1UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-shuga1-shuga1UITests.modulemap"; sourceTree = "<group>"; };
+		6919118F489192AAF5105269E9326B43 /* Pods-shuga1-shuga1UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shuga1-shuga1UITests-Info.plist"; sourceTree = "<group>"; };
+		71DE417F622A1DDF281ADB81681756A3 /* Pods-shuga1-shuga1UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-shuga1-shuga1UITests-umbrella.h"; sourceTree = "<group>"; };
+		7490D4CC7E5F44C4BCA302EFA8DD692A /* ZKCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCarousel-umbrella.h"; sourceTree = "<group>"; };
+		7E28BA6B8F732259B952F02E2F89EA60 /* ZKCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKCarousel.debug.xcconfig; sourceTree = "<group>"; };
+		824FE42D7C8E24B8AC773D7B03B1C661 /* ZKCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCarousel-prefix.pch"; sourceTree = "<group>"; };
+		8482A76243F46E33514865E29B469A37 /* ZKCarouselSlide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCarouselSlide.swift; path = ZKCarousel/Classes/ZKCarouselSlide.swift; sourceTree = "<group>"; };
+		8A288B2397D9840A64DB1ADE4158C5BD /* Pods-shuga1-shuga1UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-shuga1-shuga1UITests-dummy.m"; sourceTree = "<group>"; };
+		92A756434E4B4AC766E0612872DD91AD /* Pods-shuga1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shuga1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		96578A03725FC93AD81F28A22F05E4B7 /* Pods-shuga1Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shuga1Tests-Info.plist"; sourceTree = "<group>"; };
+		9781D7D2EEC375A3792DC37B35B4DCF3 /* Pods-shuga1Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-shuga1Tests.modulemap"; sourceTree = "<group>"; };
+		9C38E3CC4595C6BCA96B7411E0122F98 /* Pods-shuga1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-shuga1-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A75C242982F3E82C2B021393BD1A657B /* ZKCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKCarousel.release.xcconfig; sourceTree = "<group>"; };
+		A9DADE5E78D50C5446991D4B14875FF7 /* Pods-shuga1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-shuga1.modulemap"; sourceTree = "<group>"; };
+		B15F0BFE1D474391213FAEA23733DE14 /* ZKCarousel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCarousel.swift; path = ZKCarousel/Classes/ZKCarousel.swift; sourceTree = "<group>"; };
+		BA1957B52A30DF0243737196B1230707 /* ZKCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKCarousel.framework; path = ZKCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0600DF75DD6A516F062C004D9640753 /* Pods_shuga1_shuga1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_shuga1_shuga1UITests.framework; path = "Pods-shuga1-shuga1UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA2C3F7449E4DDBF6B3CF9B4B93D3C /* Pods-shuga1-shuga1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shuga1-shuga1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD296D3284C907991B9751E1A26E8EA3 /* ZKCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKCarousel.modulemap; sourceTree = "<group>"; };
+		CE38E4219CAFA30DE373DEFBD83E0BB6 /* Pods-shuga1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shuga1.debug.xcconfig"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0BEDB07476D071E4F9B3879C544B5E8 /* Pods_shuga1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_shuga1Tests.framework; path = "Pods-shuga1Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA22384A9D1A42C3CDD300620CF20824 /* Pods-shuga1-shuga1UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-shuga1-shuga1UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F379BDB1482F6907794876AFD072A08A /* Pods-shuga1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shuga1-acknowledgements.plist"; sourceTree = "<group>"; };
+		F50C3A5A492F34A713E2EEF023EB4129 /* Pods-shuga1Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-shuga1Tests-dummy.m"; sourceTree = "<group>"; };
+		F581DE85A33DE9D5ECA724C20540FA6F /* ZKCarouselCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCarouselCell.swift; path = ZKCarousel/Classes/ZKCarouselCell.swift; sourceTree = "<group>"; };
+		FDC8A90C635EC3ED9F182BB699CBD905 /* Pods-shuga1Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shuga1Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1475E3B1D21BE03F50174FD2CAC8227A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4822EA5F0E59E4811470ECD80EF67DEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B7A82F88C40787ADA77E5A4198970B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F754C8A97D334BE7951461A2763B98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858619FDA0AE640FF0C92E6C943C5DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D4FAFB81A34DB3AE5FBFFFB53867FE /* Foundation.framework in Frameworks */,
+				3A0E896CE5AD1B81CC0787F957BBC43B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20F4ED1460BDBA12F06C077FA64DD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E97E5C361D847C1D4467EF77430242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B77DD73B2241EE9FF134B7AFE6CFB20 /* Pods-shuga1 */ = {
+			isa = PBXGroup;
+			children = (
+				A9DADE5E78D50C5446991D4B14875FF7 /* Pods-shuga1.modulemap */,
+				43AE41CCA3BD60B08284594A686819C5 /* Pods-shuga1-acknowledgements.markdown */,
+				F379BDB1482F6907794876AFD072A08A /* Pods-shuga1-acknowledgements.plist */,
+				5B7BBFE7BFE51D8286BF36ACC87B89BB /* Pods-shuga1-dummy.m */,
+				9C38E3CC4595C6BCA96B7411E0122F98 /* Pods-shuga1-frameworks.sh */,
+				0AD0094816C887266586432C00DBCA98 /* Pods-shuga1-Info.plist */,
+				5047194262F5DA995EEF4F061FAC2D9D /* Pods-shuga1-umbrella.h */,
+				CE38E4219CAFA30DE373DEFBD83E0BB6 /* Pods-shuga1.debug.xcconfig */,
+				4A977170E5E09212D8271A767E165F9A /* Pods-shuga1.release.xcconfig */,
+			);
+			name = "Pods-shuga1";
+			path = "Target Support Files/Pods-shuga1";
+			sourceTree = "<group>";
+		};
+		220D9A4AA574954111073C7AE3F2DD42 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD296D3284C907991B9751E1A26E8EA3 /* ZKCarousel.modulemap */,
+				1FA728AB37F3972C0A330FEF7354B375 /* ZKCarousel-dummy.m */,
+				0F30FBFD4E903FC32279E0857DD673F0 /* ZKCarousel-Info.plist */,
+				824FE42D7C8E24B8AC773D7B03B1C661 /* ZKCarousel-prefix.pch */,
+				7490D4CC7E5F44C4BCA302EFA8DD692A /* ZKCarousel-umbrella.h */,
+				7E28BA6B8F732259B952F02E2F89EA60 /* ZKCarousel.debug.xcconfig */,
+				A75C242982F3E82C2B021393BD1A657B /* ZKCarousel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZKCarousel";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76E621735ACEFC98573981154AA03489 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B77DD73B2241EE9FF134B7AFE6CFB20 /* Pods-shuga1 */,
+				F65388CF00FEC9D76242FE1AFE9B77D2 /* Pods-shuga1-shuga1UITests */,
+				BFE25C45C04A3A173020F393310B1617 /* Pods-shuga1Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7AE96581A1DA33A6E87676AE579DF0AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D757A0EB795678B4A981C212B1C18E4D /* ZKCarousel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		837297B2F110F92DD4848F8022DEE78E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17584BB64A36DA5CBCBFB3AE6ACCDBD2 /* Pods_shuga1.framework */,
+				C0600DF75DD6A516F062C004D9640753 /* Pods_shuga1_shuga1UITests.framework */,
+				E0BEDB07476D071E4F9B3879C544B5E8 /* Pods_shuga1Tests.framework */,
+				BA1957B52A30DF0243737196B1230707 /* ZKCarousel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE25C45C04A3A173020F393310B1617 /* Pods-shuga1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9781D7D2EEC375A3792DC37B35B4DCF3 /* Pods-shuga1Tests.modulemap */,
+				345B66808BB59DD14FDE00823A6D3CBA /* Pods-shuga1Tests-acknowledgements.markdown */,
+				FDC8A90C635EC3ED9F182BB699CBD905 /* Pods-shuga1Tests-acknowledgements.plist */,
+				F50C3A5A492F34A713E2EEF023EB4129 /* Pods-shuga1Tests-dummy.m */,
+				96578A03725FC93AD81F28A22F05E4B7 /* Pods-shuga1Tests-Info.plist */,
+				15D3561FA9BBC3D80B05D3969E63780C /* Pods-shuga1Tests-umbrella.h */,
+				92A756434E4B4AC766E0612872DD91AD /* Pods-shuga1Tests.debug.xcconfig */,
+				0ADD5CF50963787BAAD3B9C03B49002B /* Pods-shuga1Tests.release.xcconfig */,
+			);
+			name = "Pods-shuga1Tests";
+			path = "Target Support Files/Pods-shuga1Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7AE96581A1DA33A6E87676AE579DF0AD /* Pods */,
+				837297B2F110F92DD4848F8022DEE78E /* Products */,
+				76E621735ACEFC98573981154AA03489 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D757A0EB795678B4A981C212B1C18E4D /* ZKCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AEC4F0E6D055A06A4CF2306722EF3 /* Extensions.swift */,
+				B15F0BFE1D474391213FAEA23733DE14 /* ZKCarousel.swift */,
+				F581DE85A33DE9D5ECA724C20540FA6F /* ZKCarouselCell.swift */,
+				8482A76243F46E33514865E29B469A37 /* ZKCarouselSlide.swift */,
+				220D9A4AA574954111073C7AE3F2DD42 /* Support Files */,
+			);
+			name = ZKCarousel;
+			path = ZKCarousel;
+			sourceTree = "<group>";
+		};
+		F65388CF00FEC9D76242FE1AFE9B77D2 /* Pods-shuga1-shuga1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				64407C5FC540D3C9E5D79615B3C5C746 /* Pods-shuga1-shuga1UITests.modulemap */,
+				EA22384A9D1A42C3CDD300620CF20824 /* Pods-shuga1-shuga1UITests-acknowledgements.markdown */,
+				22402FDF65FD15BD217695592D3E249E /* Pods-shuga1-shuga1UITests-acknowledgements.plist */,
+				8A288B2397D9840A64DB1ADE4158C5BD /* Pods-shuga1-shuga1UITests-dummy.m */,
+				3EE70D3574B708B519F2541CE7CC749B /* Pods-shuga1-shuga1UITests-frameworks.sh */,
+				6919118F489192AAF5105269E9326B43 /* Pods-shuga1-shuga1UITests-Info.plist */,
+				71DE417F622A1DDF281ADB81681756A3 /* Pods-shuga1-shuga1UITests-umbrella.h */,
+				620EB73A23869CFD381A3FBAE435BADB /* Pods-shuga1-shuga1UITests.debug.xcconfig */,
+				C4AA2C3F7449E4DDBF6B3CF9B4B93D3C /* Pods-shuga1-shuga1UITests.release.xcconfig */,
+			);
+			name = "Pods-shuga1-shuga1UITests";
+			path = "Target Support Files/Pods-shuga1-shuga1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AC7BE4FE428781B01421041567E0E1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40FEEB5EE3C826BA40ADD2DB4882BC4 /* Pods-shuga1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72193938D237B75F0771ECA6F5609299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39A95F201D8B8F4784685BBEBF7DC86 /* ZKCarousel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33FD6C73ACDA16391AC843E8E25169D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CA916F7034931D9C2C05C2311F4314 /* Pods-shuga1Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E070F9DF5E12373A33524B9787ECC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB6F48D5B2DFFDDCCDC38CBA4D1DD2A /* Pods-shuga1-shuga1UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AD089EF1AA59336DB8E81760279D1F5 /* ZKCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17E4BC1CC61953C9C53ED07DD880DE1 /* Build configuration list for PBXNativeTarget "ZKCarousel" */;
+			buildPhases = (
+				72193938D237B75F0771ECA6F5609299 /* Headers */,
+				636E6F9553E3BF26825F80320AF0C0DA /* Sources */,
+				858619FDA0AE640FF0C92E6C943C5DA9 /* Frameworks */,
+				D06A57BCCEB3D7D0CA55920267CE01A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKCarousel;
+			productName = ZKCarousel;
+			productReference = BA1957B52A30DF0243737196B1230707 /* ZKCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D3CEA7910F9BE3261022F9281B65AC9 /* Pods-shuga1-shuga1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3C6D503ECF95E11AA24043E8EC48B6 /* Build configuration list for PBXNativeTarget "Pods-shuga1-shuga1UITests" */;
+			buildPhases = (
+				E6E070F9DF5E12373A33524B9787ECC6 /* Headers */,
+				EFE098D25AF83D749AA6359155897DF4 /* Sources */,
+				1475E3B1D21BE03F50174FD2CAC8227A /* Frameworks */,
+				09F1EE2F061EC1711E8951E15302305D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582E647F77DCD557070A611B1632396E /* PBXTargetDependency */,
+			);
+			name = "Pods-shuga1-shuga1UITests";
+			productName = "Pods-shuga1-shuga1UITests";
+			productReference = C0600DF75DD6A516F062C004D9640753 /* Pods_shuga1_shuga1UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6678BDA5590BDE701AACDA4B2771519A /* Pods-shuga1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46922AC861FED6E421BBE8B99E334DBD /* Build configuration list for PBXNativeTarget "Pods-shuga1Tests" */;
+			buildPhases = (
+				E33FD6C73ACDA16391AC843E8E25169D /* Headers */,
+				624C26A64636E9ED1E1F9E62AA096423 /* Sources */,
+				56B7A82F88C40787ADA77E5A4198970B /* Frameworks */,
+				05ED6A48558F421A5D1EDED89C5BE884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D2CB5B2814AD5014B49C4DAF27A8AA /* PBXTargetDependency */,
+			);
+			name = "Pods-shuga1Tests";
+			productName = "Pods-shuga1Tests";
+			productReference = E0BEDB07476D071E4F9B3879C544B5E8 /* Pods_shuga1Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF98A7198D645889A596A7B82224D8EB /* Pods-shuga1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2986106E8F4DE963C5623EAA945B2C82 /* Build configuration list for PBXNativeTarget "Pods-shuga1" */;
+			buildPhases = (
+				4AC7BE4FE428781B01421041567E0E1F /* Headers */,
+				0333D3347AF938AD73BCA2C45863380B /* Sources */,
+				F20F4ED1460BDBA12F06C077FA64DD0F /* Frameworks */,
+				9FEF51931B8EE5487C72019C2B2D125C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B3512A227D56F5B62F1AC07AA581172 /* PBXTargetDependency */,
+			);
+			name = "Pods-shuga1";
+			productName = "Pods-shuga1";
+			productReference = 17584BB64A36DA5CBCBFB3AE6ACCDBD2 /* Pods_shuga1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 837297B2F110F92DD4848F8022DEE78E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF98A7198D645889A596A7B82224D8EB /* Pods-shuga1 */,
+				5D3CEA7910F9BE3261022F9281B65AC9 /* Pods-shuga1-shuga1UITests */,
+				6678BDA5590BDE701AACDA4B2771519A /* Pods-shuga1Tests */,
+				1AD089EF1AA59336DB8E81760279D1F5 /* ZKCarousel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05ED6A48558F421A5D1EDED89C5BE884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F1EE2F061EC1711E8951E15302305D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEF51931B8EE5487C72019C2B2D125C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06A57BCCEB3D7D0CA55920267CE01A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0333D3347AF938AD73BCA2C45863380B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9A31E552B64EB642380AED0F081542 /* Pods-shuga1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624C26A64636E9ED1E1F9E62AA096423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4114DD041DD209758BC56ECFD5ECE1 /* Pods-shuga1Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636E6F9553E3BF26825F80320AF0C0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299E92C1A6E0285E526E6959DC916261 /* Extensions.swift in Sources */,
+				D03E696A371AEE0B6585510D71FF27F6 /* ZKCarousel-dummy.m in Sources */,
+				464BABA02E45C565029030DA7753A441 /* ZKCarousel.swift in Sources */,
+				1625A22D383028EFAF6B7A0877EF98EB /* ZKCarouselCell.swift in Sources */,
+				C6140B212F989039C0737541ADB83B63 /* ZKCarouselSlide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE098D25AF83D749AA6359155897DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92ACF463C1CDC294B78A19AE9570003D /* Pods-shuga1-shuga1UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582E647F77DCD557070A611B1632396E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKCarousel;
+			target = 1AD089EF1AA59336DB8E81760279D1F5 /* ZKCarousel */;
+			targetProxy = E0369B5071C4B800F3E6B2B758EB68EF /* PBXContainerItemProxy */;
+		};
+		6B3512A227D56F5B62F1AC07AA581172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKCarousel;
+			target = 1AD089EF1AA59336DB8E81760279D1F5 /* ZKCarousel */;
+			targetProxy = 0310584FC5578C2536108C10345EBCCD /* PBXContainerItemProxy */;
+		};
+		A1D2CB5B2814AD5014B49C4DAF27A8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-shuga1";
+			target = DF98A7198D645889A596A7B82224D8EB /* Pods-shuga1 */;
+			targetProxy = F293A1DFABA6CFBEA3BBE37FADE9FF29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006BE4318DB87766A8AFBA40A678E984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADD5CF50963787BAAD3B9C03B49002B /* Pods-shuga1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shuga1Tests/Pods-shuga1Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shuga1Tests/Pods-shuga1Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		06A354A271560D80E13313D44F1F22C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620EB73A23869CFD381A3FBAE435BADB /* Pods-shuga1-shuga1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shuga1-shuga1UITests/Pods-shuga1-shuga1UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shuga1-shuga1UITests/Pods-shuga1-shuga1UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31C33CA7D60920BD155304E6D3A7532D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AA2C3F7449E4DDBF6B3CF9B4B93D3C /* Pods-shuga1-shuga1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shuga1-shuga1UITests/Pods-shuga1-shuga1UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shuga1-shuga1UITests/Pods-shuga1-shuga1UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		340A56D48A34D6168F2BD208693AC6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE38E4219CAFA30DE373DEFBD83E0BB6 /* Pods-shuga1.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shuga1/Pods-shuga1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shuga1/Pods-shuga1.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D05CB46414EB49E5AFB0FA8892F70A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E28BA6B8F732259B952F02E2F89EA60 /* ZKCarousel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZKCarousel/ZKCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKCarousel/ZKCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZKCarousel/ZKCarousel.modulemap";
+				PRODUCT_MODULE_NAME = ZKCarousel;
+				PRODUCT_NAME = ZKCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C584ADC209ACADA33FFB2A4A39B1DB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75C242982F3E82C2B021393BD1A657B /* ZKCarousel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZKCarousel/ZKCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKCarousel/ZKCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZKCarousel/ZKCarousel.modulemap";
+				PRODUCT_MODULE_NAME = ZKCarousel;
+				PRODUCT_NAME = ZKCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4A0AD6298595F5D59EC7222A5DB7FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A756434E4B4AC766E0612872DD91AD /* Pods-shuga1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shuga1Tests/Pods-shuga1Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shuga1Tests/Pods-shuga1Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA865AFAAD6FB222A6E62FB622B0BAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A977170E5E09212D8271A767E165F9A /* Pods-shuga1.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shuga1/Pods-shuga1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shuga1/Pods-shuga1.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2986106E8F4DE963C5623EAA945B2C82 /* Build configuration list for PBXNativeTarget "Pods-shuga1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340A56D48A34D6168F2BD208693AC6FA /* Debug */,
+				DA865AFAAD6FB222A6E62FB622B0BAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46922AC861FED6E421BBE8B99E334DBD /* Build configuration list for PBXNativeTarget "Pods-shuga1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A0AD6298595F5D59EC7222A5DB7FBB /* Debug */,
+				006BE4318DB87766A8AFBA40A678E984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17E4BC1CC61953C9C53ED07DD880DE1 /* Build configuration list for PBXNativeTarget "ZKCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D05CB46414EB49E5AFB0FA8892F70A0 /* Debug */,
+				C584ADC209ACADA33FFB2A4A39B1DB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3C6D503ECF95E11AA24043E8EC48B6 /* Build configuration list for PBXNativeTarget "Pods-shuga1-shuga1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A354A271560D80E13313D44F1F22C6 /* Debug */,
+				31C33CA7D60920BD155304E6D3A7532D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
